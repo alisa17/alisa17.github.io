@@ -1,9 +1,14 @@
 body {
-    background: #cce698;
+    background: #cfebfd;
     font-family: Arial;
 }
 
 h1 {
-    color: #CD853F;
+    color: #43677d;
     text-align: center;
+}
+
+img {
+    padding: 5px;
+    width: 700px;
 }
