@@ -1,6 +1,6 @@
 body {
     background: #cfebfd;
-    font-family: Arial;
+    font-family: Lucida Sans;
 }
 
 h1 {
@@ -11,4 +11,15 @@ h1 {
 img {
     padding: 5px;
     width: 700px;
+}
+
+#panel {
+    width: 25%;
+    float: left;
+}
+
+#main {
+    width: 75%;
+    float: right;
+    font-size: 150%;
 }
