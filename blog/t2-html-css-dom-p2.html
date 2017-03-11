@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
     <title>Technical Blog</title>
-    <link href="../styles/main.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Alisa's website">
+    <meta name="author" content="Alisa">
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 
 <body>
-    <h1>Technical Blog</h1>
+    <div class="container">
 
-    <h3>6 March 2017</h3>
-    <div id="panel">
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../blog/c1-reflection-blog.html">Reflection blog</a></li>
-            <li><a href="../blog/c1-time-and-habits-blog.html">Time and Habits blog</a></li>
-            <li><a href="../blog/t2-html-css-dom-p1.html">Technical blog 1</a></li>
-            <li>Technical blog 2</li>
-            <li><a href="../blog/c2-emotional-intelligence">Emotional Intelligence</a></li>
-        </ul>
-    </div>
-    <div id="main">
-
-        <h2>Analogies and Definitions</h2>
-        <div>
-            <h4>What is grid based design?</h4> Grid based design refers to content being organised on a page as if elemnts are all part of a grid that follows a top to bottom, left to right pattern.
-        </div>
-        <div>
-            <h4> Whats all the hype about responsive webpages?</h4> The hype has to do with an ever increasing number of smart phone and tablet users as well as there being many different browsers and computer screens. Responsive design means the kind of design that is convenient to use for all users regardless
-            their choice of device or browser, i.e. the kind of design that responds to the user's needs.
-        </div>
-        <div>
-            <h4> What is semantic structure?</h4> Semantic structure means structure of tags that reflect the semantic meaning of the element
-        </div>
-        <div>
-            <h4> Any other points you found interesting and want to reflect on.</h4> Makes me wonder if there is an easy to use, stripped down framework that is suitable for a beginner such as myself, for example like the one in the udacity document.
+        <div class="row head">
+            <h3>Technical Blog 6 March 2017</h3>
         </div>
 
-    </div>
+        <div class="master row">
+            <div class="four columns navbar">
+                <div class="navelement">Home</div>
+                <div class="navelement">About</div>
+                <div class="navelement">Technical Blogs</div>
+                <li><a href="../blog/t2-html-css-dom-p1.html">Technical blog 1</a></li>
+                <li><a href="../blog/t2-html-css-dom-p2.html">Technical blog 2</a></li>
+                <div class="navelement">Cultural Blogs</div>
+                <li><a href="../blog/c1-time-and-habits-blog.html">Time and Habits blog</a></li>
+                <li><a href="../blog/c2-emotional-intelligence">Emotional Intelligence</a></li>
+                <div class="navelement">Contact</div>
+            </div>
 
+            <div class="eight columns">
+                <h5>Analogies and Definitions</h5>
+                <div>
+                    <h6>What is grid based design?</h6> Grid based design refers to content being organised on a page as if elemnts are all part of a grid that follows a top to bottom, left to right pattern.
+                </div>
+                <div>
+                    <h6> Whats all the hype about responsive webpages?</h6> The hype has to do with an ever increasing number of smart phone and tablet users as well as there being many different browsers and computer screens. Responsive design means the kind of design that is convenient to use for all users
+                    regardless their choice of device or browser, i.e. the kind of design that responds to the user's needs.
+                </div>
+                <div>
+                    <h6> What is semantic structure?</h6> Semantic structure means structure of tags that reflect the semantic meaning of the element
+                </div>
+                <div>
+                    <h6> Any other points you found interesting and want to reflect on.</h6> Makes me wonder if there is an easy to use, stripped down framework that is suitable for a beginner such as myself, for example like the one in the udacity document.
+                </div>
+                <div class="eight columns">
 
+                </div>
+            </div>
+        </div>
 </body>
-
-</html>
