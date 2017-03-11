@@ -30,3 +30,15 @@
 .row.master.blog {
     background-color: #7bddfb;
 }
+
+#contact-bar {
+  font-size: 1.5rem;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#contact-pic {
+  width: 100%;
+  padding: 5% 5% 5% 5%;
+}
