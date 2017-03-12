@@ -42,3 +42,7 @@
 .wire {
   width: 100%;
 }
+
+.row.wireframes {
+  padding-bottom: 5%;
+}
