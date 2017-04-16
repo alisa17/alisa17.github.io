@@ -20,10 +20,10 @@
 }
 
 #blog-home {
-  background-color: #4e6889;
-  padding-top: 10rem;
-  padding: 5rem;
-  color: white;
+    background-color: #4e6889;
+    padding-top: 10rem;
+    padding: 5rem;
+    color: white;
 }
 
 a:link {
@@ -42,4 +42,17 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+.head {
+    padding-top: 3rem;
+}
+
+.blog {
+    padding-top: 2rem;
+}
+
+
+.wire {
+    width: 100%;
 }
